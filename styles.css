@@ -28,7 +28,7 @@ input {
   max-width: 12vw;
 }
 
-#submit {
+input {
   max-width: 40vw;
   font-family: 'Slabo 27px', serif;
   border-color: #144e14;
