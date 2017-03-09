@@ -5,11 +5,6 @@ var subtract = document.querySelector('#subtract');
 var multiply = document.querySelector('#multiply');
 var divide = document.querySelector('#divide');
 var outputArea = document.querySelector('#output-area');
-add.onclick = total;
-subtract.onclick = difference;
-multiply.onclick = product;
-divide.onclick = quotient;
-
 
 function total() {
   var valueOne = parseInt(inputOne.value);
@@ -20,6 +15,7 @@ function total() {
     alert('Please enter a number.');
   }
 }
+
   function difference() {
     var valueOne = parseInt(inputOne.value);
     var valueTwo = parseInt(inputTwo.value);
@@ -49,3 +45,8 @@ function quotient() {
     alert('Please enter a number.');
   }
 }
+
+add.onclick = total;
+subtract.onclick = difference;
+multiply.onclick = product;
+divide.onclick = quotient;
