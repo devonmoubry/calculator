@@ -1,0 +1,57 @@
+body {
+  background-color: #b4bdb4;
+  font-family: 'Slabo 27px', serif;
+  padding: 3vw;
+  width: auto;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #144e14;
+}
+
+form {
+   display: block;
+   padding: 1vw;
+   background-color: #144e14;
+   border-radius: 10px;
+   width: 50vw;
+   text-decoration: none;
+   margin: 0 auto;
+ }
+
+input {
+  display: inline-block;
+  max-width: 12vw;
+}
+
+#submit {
+  max-width: 40vw;
+  font-family: 'Slabo 27px', serif;
+  border-color: #144e14;
+  background-color: #90ee90;
+}
+
+label {
+  display: block;
+  margin: 2vw auto;
+  text-align: center;
+  text-decoration: none;
+  background-color: #90ee90;
+  border-radius: 10px;
+  padding: 5px;
+  max-width: 40vw;
+}
+
+span {
+  display: block;
+  color: #90ee90;
+}
+
+ output {
+   display: block;
+   padding: 1vw;
+ }
